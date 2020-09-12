@@ -1,0 +1,694 @@
+<?php require'include/header.php'; ?>
+<link rel="stylesheet" type="text/css" href="css/animate.css">
+            <!-- Filter Start-->
+        <div class="booking-area location-search" style="margin-top: 60px">
+            <div class="container">
+               <div class="row ">
+               <div class="col-12">
+                <form action="">
+                <div class="booking-wrap d-flex justify-content-between align-items-center">
+                    <div class="container mb-10" align="center">
+                        <h1 style="color: white;font-weight: 700;margin-top: 10px">Find Coaching Center</h1>
+                    </div>
+                    <!-- Single Select Box -->
+                    <div class="single-select-box mb-10">
+                        <div class="boking-tittle" align="center">
+                            <span>Select you City</span>
+                        </div>
+                        <div class="select-this">
+                            <form action="#">
+                                <div class="select-itms">
+                                    <select name="select" id="select1" class="form-control searchbox">
+                                        <option value="">Select your city</option>
+                                        <option value="">Noida</option>
+                                        <option value="">Delhi</option>
+                                        <option value="">Jaipur</option>
+
+                                    </select>
+                                </div>
+                            </form>
+                        </div>
+                   </div>
+                    <!-- Single Select Box -->
+                    <div class="single-select-box mb-10">
+                        <div class="boking-tittle" align="center">
+                            <span>Select your Location</span>
+                        </div>
+                        <div class="select-this">
+                            <form action="#">
+                                <div class="select-itms">
+                                    <select name="select" id="select1" class="form-control searchbox">
+                                        <option value="">Select your location</option>
+                                        <option value="">Noida 65</option>
+                                        <option value="">Noida 66</option>
+                                        <option value="">Noida 67</option>
+
+                                    </select>
+                                </div>
+                            </form>
+                        </div>
+                   </div>
+                    <!-- Single Select Box -->
+                    <div class="single-select-box mb-10 ">
+                        <div class="boking-tittle" align="center">
+                            <span>Select Your Class</span>
+                        </div>
+                        <div class="select-this">
+                            <form action="#">
+                                <div class="select-itms">
+                                    <select name="select" id="select1" class="form-control searchbox">
+                                        <option value="">Select Class</option>
+                                        <option value="">8</option>
+                                        <option value="">9</option>
+                                        <option value="">10</option>
+
+                                    </select>
+                                </div>
+                            </form>
+                        </div>
+                   </div>
+                    <!-- Single Select Box -->
+                    <div class="single-select-box mb-10">
+                        <div class="boking-tittle" align="center">
+                            <span>Select Your Subject:</span>
+                        </div>
+                        <div class="select-this">
+                            <form action="#">
+                                <div class="select-itms">
+                                    <select name="select" id="select2" class="form-control searchbox">
+                                        <option value="">Select Subject</option>
+                                        <option value="">English</option>
+                                        <option value="">Hindi</option>
+                                        <option value="">Science</option>
+                                    </select>
+                                </div>
+                            </form>
+                        </div>
+                   </div>
+                    <!-- Single Select Box -->
+                    <div class="single-select-box pt-45 mb-10">
+                        <a href="#" class="btn select-btn">Search</a>
+                   </div>
+               
+
+                </div>
+            </form>
+               </div>
+               </div>
+            </div>
+        </div>
+        <!-- Filter ends -->
+
+    <!-- ***** Welcome Area Start ***** -->
+    <section class="welcome-area" id="home-section" style="margin-top: 0px">
+
+    <!-- Filter End-->
+
+        <div class="welcome-slides owl-carousel">
+            <!-- Single Welcome Slide -->
+            <div class="single-welcome-slide">
+                <!-- Background Curve -->
+                <div class="background-curve">
+                    <img src="./img/core-img/curve-1.png" alt="">
+                </div>
+
+                <!-- Welcome Content -->
+                <div class="welcome-content h-100">
+                    <div class="container h-100">
+                        <div class="row h-100 align-items-center">
+                            <!-- Welcome Text -->
+                            <div class="col-12 col-md-6">
+                                <div class="welcome-text animated bounceInUp">
+                                    <!-- <span> -->
+                                        <h2 >Revised makes your <br> study <span>easier</span></h2>
+                                        <h5 >We love to create "cool" things on Digital Platforms</h5>
+                                        <a href="#" class="btn btn3 uza-btn btn-2">Start Exploring</a>
+                                    <!-- </span> -->
+                                </div>
+                            </div>
+                            <!-- Welcome Thumbnail -->
+                            <div class="col-12 col-md-6">
+                                <div class="welcome-thumbnail animated bounceInRight">
+                                    <img src="./img/bg-img/1.png" alt="" data-animation="slideInRight" data-delay="400ms">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- <div >
+            <img  src="dashboard/images/banner/1st.png" style=";width: -webkit-fill-available;">
+        </div> -->
+    </section>
+    <!-- ***** Welcome Area End ***** -->
+
+
+    <!-- ***** Portfolio Area Start ***** -->
+
+    <!-- First Package Area Start -->
+    <?php 
+    require 'dashboard/include/connection.php';
+
+    $checkQuery = "SELECT * FROM package_name WHERE id=1";
+    $checkResult = mysqli_query($conn, $checkQuery);
+
+    $row = $checkResult -> fetch_assoc();
+
+    ?>
+    <section class="uza-portfolio-area section-padding-80" id="package-section">
+        <div class="container mb-30" align="center">
+            <h1 style="color: #1583E9;font-weight: 600;font-size: 60PX">OUR TUTORS PACKAGES</h1>
+        </div>
+        <div class="container">
+            <div class="row">
+                <!-- Section Heading -->
+                <div class="col-12">
+                    <div class="section-heading text-center">
+                        <h2 class="mt1-20 animated lightSpeedIn"><?php echo $row['name']; ?></h2>
+                        <p><?php echo $row['description']; ?></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    <?php 
+
+    $checkQuery = "SELECT * FROM package WHERE type=1";
+    $checkResult = mysqli_query($conn, $checkQuery);
+
+    ?>
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Portfolio Slides -->
+                <div class="portfolio-sildes owl-carousel ">
+
+                    <?php 
+
+                    while ($row = $checkResult -> fetch_assoc()) {
+                    ?>
+                    <!-- Single Portfolio Slide -->
+                    <div class="single-portfolio-slide animated bounceInRight">
+                        <img src="dashboard/images/package/<?php echo $row['image']; ?>" alt="">
+                        <!-- Overlay Effect -->
+                        <div class="overlay-effect">
+                            <h4><?php echo $row['name']; ?></h4>
+                            <p><?php echo $row['description']; ?></p>
+                        </div>
+                        <!-- View More -->
+                        <div class="view-more-btn">
+                            <a href="#"><i class="arrow_right"></i></a>
+                        </div>
+                    </div>
+                    <?php 
+                    }
+                    ?>
+
+
+                </div>
+            </div>
+        </div>
+
+        <!-- First Package Area End -->
+
+        <div class="container">
+            <div class="row">
+                <!-- Section Heading -->
+                <div class="col-12">
+                    <div class="section-heading text-center">
+                        <h2>Offer's on Package</h2>
+                        <!-- <p>A short line on first package</p> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Portfolio Slides -->
+                <div class="offer-sildes owl-carousel">
+
+                    <?php 
+                            require 'dashboard/include/connection.php';
+                            $checkQuery = "SELECT * FROM offers";
+                            $checkResult = mysqli_query($conn, $checkQuery);
+                            $no_rows=mysqli_num_rows($checkResult);
+                            if ($no_rows>0) {
+                                 while ($row = $checkResult -> fetch_assoc()) {
+                    ?>
+                    <!-- Single Portfolio Slide -->
+                    <div class="single-portfolio-slide animated bounceInLeft">
+                        <img class="offer-image" src="dashboard/images/offer/<?php echo $row['image']; ?>" alt="">
+                    </div>
+                    <?php 
+                    }
+                }
+                    ?>
+
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Offers Area End -->
+
+
+<?php 
+    require 'dashboard/include/connection.php';
+
+    $checkQuery = "SELECT * FROM package_name WHERE id=2";
+    $checkResult = mysqli_query($conn, $checkQuery);
+
+    $row = $checkResult -> fetch_assoc();
+    
+?>
+        <!-- Second Package Area Start -->
+
+        <div class="container">
+            <div class="row">
+                <!-- Section Heading -->
+                <div class="col-12">
+                    <div class="section-heading text-center">
+                        <h2><?php echo $row['name']; ?></h2>
+                        <p><?php echo $row['description']; ?></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<?php 
+
+    $checkQuery = "SELECT * FROM package WHERE type=2";
+    $checkResult = mysqli_query($conn, $checkQuery);
+
+    ?>
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Portfolio Slides -->
+                <div class="portfolio-sildes owl-carousel">
+
+                    <?php 
+
+                    while ($row = $checkResult -> fetch_assoc()) {
+                    ?>
+                    <!-- Single Portfolio Slide -->
+                    <div class="single-portfolio-slide animated bounceInLeft">
+                        <img src="dashboard/images/package/<?php echo $row['image']; ?>" alt="">
+                        <!-- Overlay Effect -->
+                        <div class="overlay-effect">
+                            <h4><?php echo $row['name']; ?></h4>
+                            <p><?php echo $row['description']; ?></p>
+                        </div>
+                        <!-- View More -->
+                        <div class="view-more-btn">
+                            <a href="#"><i class="arrow_right"></i></a>
+                        </div>
+                    </div>
+                    <?php 
+                    }
+                    ?>
+
+
+                </div>
+            </div>
+        </div>
+</section>
+        <?php 
+        $checkQuery = "SELECT * FROM aboutus";
+        $resultQuery = mysqli_query($conn, $checkQuery);
+        $row = $resultQuery -> fetch_assoc();
+
+        ?>
+        <!-- Second Package Area End -->
+        <!-- <div class="mt-20">
+            <img  src="dashboard/images/banner/<?php echo $row['banner']; ?>" style=";width: -webkit-fill-available;height: 300px;">
+        </div> -->
+        
+        <div class="parallax-window" data-parallax="scroll" data-image-src="dashboard/images/banner/<?php echo $row['banner']; ?>"></div>
+        <!-- Third Package Area Start -->
+<section class="uza-portfolio-area section-padding-80" id="package-section">
+
+<?php 
+    require 'dashboard/include/connection.php';
+
+    $checkQuery = "SELECT * FROM package_name WHERE id=3";
+    $checkResult = mysqli_query($conn, $checkQuery);
+
+    $row = $checkResult -> fetch_assoc();
+    
+?>
+        <div class="container">
+            <div class="row">
+                <!-- Section Heading -->
+                <div class="col-12">
+                    <div class="section-heading text-center">
+                        <h2><?php echo $row['name']; ?></h2>
+                        <p><?php echo $row['description']; ?></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<?php 
+
+    $checkQuery = "SELECT * FROM package WHERE type=3";
+    $checkResult = mysqli_query($conn, $checkQuery);
+
+?>
+        <div class="container-fluid">
+            <div class="row">
+                <!-- Portfolio Slides -->
+                <div class="portfolio-sildes owl-carousel">
+
+                    <?php 
+
+                    while ($row = $checkResult -> fetch_assoc()) {
+                    ?>
+                    <!-- Single Portfolio Slide -->
+                    <div class="single-portfolio-slide animated bounceInRight">
+                        <img src="dashboard/images/package/<?php echo $row['image']; ?>" alt="">
+                        <!-- Overlay Effect -->
+                        <div class="overlay-effect">
+                            <h4><?php echo $row['name']; ?></h4>
+                            <p><?php echo $row['description']; ?></p>
+                        </div>
+                        <!-- View More -->
+                        <div class="view-more-btn">
+                            <a href="#"><i class="arrow_right"></i></a>
+                        </div>
+                    </div>
+                    <?php 
+                    }
+                    ?>
+
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Third Package Area End -->
+        
+    <!-- ***** Cool Facts Area Start ***** -->
+    <div class="uza-cf-area section-padding-80-0 mb-80">
+        <div class="container">
+            <div class="row animated fadeInUp">
+
+                <?php 
+                include 'dashboard/include/connection.php';
+
+                $VendorCount = mysqli_query($conn, "SELECT * FROM vendordetail");
+                $vendor_row = mysqli_num_rows($VendorCount);
+
+                $UserCount = mysqli_query($conn, "SELECT * FROM userdetail");
+                $user_row = mysqli_num_rows($UserCount);
+
+                ?>
+
+                <!-- Single Cool Facts Area -->
+                <div class="col-sm-6 col-lg-3 col-xs-6">
+                    <div class="single-cf-area d-flex align-items-center">
+                        <h2><span class="counter"><?php echo $user_row; ?></span></h2>
+                        <div class="cf-text">
+                            <h6>Happy<br>Students</h6>
+                        </div>
+                        <div class="bg-icon"><i class="icon_piechart"></i></div>
+                    </div>
+                </div>
+
+                <!-- Single Cool Facts Area -->
+                <div class="col-sm-6 col-lg-3 col-xs-6">
+                    <div class="single-cf-area d-flex align-items-center">
+                        <h2><span class="counter"><?php echo $vendor_row; ?></span></h2>
+                        <div class="cf-text">
+                            <h6>Happy<br>Vendors</h6>
+                        </div>
+                        <div class="bg-icon"><i class="icon_heart_alt"></i></div>
+                    </div>
+                </div>
+
+                <!-- Single Cool Facts Area -->
+                <div class="col-sm-6 col-lg-3 col-xs-6">
+                    <div class="single-cf-area d-flex align-items-center ">
+                        <h2><span class="counter">50</span></h2>
+                        <div class="cf-text">
+                            <h6>Hours of<br>Learning</h6>
+                        </div>
+                        <div class="bg-icon"><i class="icon_book_alt"></i></div>
+                    </div>
+                </div>
+
+                <!-- Single Cool Facts Area -->
+                <div class="col-sm-6 col-lg-3 col-xs-6">
+                    <div class="single-cf-area d-flex align-items-center ">
+                        <h2><span class="counter">20</span></h2>
+                        <div class="cf-text">
+                            <h6>Average Teacher<br>Ranking</h6>
+                        </div>
+                        <div class="bg-icon"><i class="icon_profile"></i></div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <!-- ***** Cool Facts Area End ***** -->
+
+        <!-- Testimonials Feedback Area Start -->
+        <div class="clients-feedback-area clearfix">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <!-- Testimonial Slides -->
+                        <div class="testimonial-slides owl-carousel">
+                            <?php 
+                                require 'dashboard/include/connection.php';
+                                $checkQuery = "SELECT * FROM testimonials";
+                                $checkResult = mysqli_query($conn, $checkQuery);
+                                $no_rows=mysqli_num_rows($checkResult);
+                                if ($no_rows>0) {
+                                    for($sno=1;$sno<=$no_rows;$sno++){
+                                        $row = $checkResult->fetch_assoc();
+
+                            ?>
+
+                            <!-- Single Testimonial Slide -->
+                            <div class="single-testimonial-slide d-flex align-items-center animated fadeInUp">
+                                <!-- Testimonial Thumbnail -->
+                                <div class="testimonial-thumbnail">
+                                    <img src="img/bg-img/<?php echo $row['image']; ?>" alt="">
+                                </div>
+                                <!-- Testimonial Content -->
+                                <div class="testimonial-content">
+                                    <h4>“<?php echo $row['content']; ?>”</h4>
+                                    <!-- Ratings -->
+                                    <div class="ratings">
+                                        <i class="icon_star"></i>
+                                        <i class="icon_star"></i>
+                                        <i class="icon_star"></i>
+                                        <i class="icon_star"></i>
+                                        <i class="icon_star"></i>
+                                    </div>
+                                    <!-- Author Info -->
+                                    <div class="author-info">
+                                        <h5><?php echo $row['name']; ?> <span>- <?php echo $row['school']; ?></span></h5>
+                                    </div>
+                                    <!-- Quote Icon -->
+                                    <div class="quote-icon"><img src="img/core-img/quote.png" alt=""></div>
+                                </div>
+                            </div>
+                            <?php 
+                                    }
+                                }
+                            ?>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Testimonials Feedback Area End -->
+
+
+        <!-- Border -->
+        <div class="container">
+            <div class="border-line"></div>
+        </div>
+
+        <!-- Background Curve -->
+        <div class="portfolio-bg-curve">
+            <img src="./img/core-img/curve-3.png" alt="">
+        </div>
+    </section>
+    <!-- ***** Portfolio Area End ***** -->
+
+    <!-- ***** About Us Area Start ***** -->
+    <section class="uza-about-us-area">
+        <div class="container">
+            <div class="row align-items-center animated bounceInUp">
+
+                <!-- About Thumbnail -->
+                <div class="col-12 col-md-6">
+                    <div class="about-us-thumbnail mb-80">
+                        <img src="./img/bg-img/2.jpg" alt="">
+                        <!-- Video Area -->
+                        <div class="uza-video-area hi-icon-effect-8">
+                            <a href="https://www.youtube.com/watch?v=sSakBz_eYzQ" class="hi-icon video-play-btn"><i class="fa fa-play" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- About Us Content -->
+                <div class="col-12 col-md-6">
+                    <div class="about-us-content mb-80">
+                        <h2>Short Video of Parents telling about the portal</h2>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing esed diam nonumy eirmod tempor invidunt ut labore et dolore magna.</p>
+                        <p>Details of the teacher to be displayed here only Lorem ipsum dolor sit amet ipsumlor eut consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt labore et dolore magna
+                            liquyam erat.</p>
+                        <a href="#" class="btn uza-btn btn-2 mt-4">Start Exploring</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- About Background Pattern -->
+        <div class="about-bg-pattern">
+            <img src="./img/core-img/curve-2.png" alt="">
+        </div>
+    </section>
+    <!-- ***** About Us Area End ***** -->
+
+    <!-- ***** Blog Area Start ***** -->
+    <section class="uza-blog-area" id="blog-section">
+        <!-- Background Curve -->
+        <div class="blog-bg-curve">
+            <img src="./img/core-img/curve-4.png" alt="">
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-heading text-center animated bounceInRight">
+                        <h2 class="mt1-20">Our Latest Blogs</h2>
+                        <p>Hit the button below or give us a call!</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="offer-sildes owl-carousel">
+
+                    <?php 
+                            require 'dashboard/include/connection.php';
+                            $checkQuery = "SELECT * FROM blogs";
+                            $checkResult = mysqli_query($conn, $checkQuery);
+                            $no_rows=mysqli_num_rows($checkResult);
+                            if ($no_rows>0) {
+                                 while ($row = $checkResult -> fetch_assoc()) {
+                    ?>
+                    <!-- Single Portfolio Slide -->
+                    <div class="single-blog-post bg-img mb-80 animated slideInLeft" style="background-image: url(./img/bg-img/8.jpg);">
+                        <div class="post-content">
+                            <a href="#" class="post-title"><?php echo $row['heading']; ?></a>
+                            <p><?php echo $row['content']; ?></p>
+                        </div>
+                    </div>
+                    <?php 
+                    }
+                }
+                    ?>
+
+
+                </div>
+            </div>
+          
+    <!-- CTA Area Start -->
+        <div class="uza-cta-area" id="interested-section">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-12 col-lg-8">
+                        <div class="cta-content mb-40">
+                            <h2>Interested in working with us?</h2>
+                            <h6>Hit the button below or give us a call!</h6>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-lg-4">
+                        <div class="cta-content mb-40">
+                            <div class="call-now-btn">
+                                <a href="#"><span>Call us now:</span> (+65) 1234 5678</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- CTA Area End -->
+
+    </section>
+    <!-- ***** Blog Area End ***** -->
+
+    <!-- ***** Newsletter Area Start ***** -->
+    <section class="uza-newsletter-area">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <!-- Newsletter Content -->
+                <div class="col-12 col-md-6 col-lg-6">
+                    <div class="nl-content mb-40">
+                        <h2>Subscribe to our Newsletter</h2>
+                        <p>Subscribe our newsletter gor get notification about new updates, etc...</p>
+                    </div>
+                </div>
+                <!-- Newsletter Form -->
+                <div class="col-12 col-md-6 col-lg-5">
+                    <div class="nl-form mb-40">
+                        <form action="" method="post">
+                            <input type="email" name="email" value="" placeholder="Your Email">
+                            <button type="submit" name="Subscribe">Subscribe</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- Border Bottom -->
+            <div class="border-line"></div>
+        </div>
+    </section>
+    <!-- ***** Newsletter Area End ***** -->
+
+<?php require'include/footer.php' ?>
+
+<script type="text/javascript">
+    
+$(document).ready(function() {
+  $("#myCarousel").on("slide.bs.carousel", function(e) {
+    var $e = $(e.relatedTarget);
+    var idx = $e.index();
+    var itemsPerSlide = 3;
+    var totalItems = $(".carousel-item").length;
+
+    if (idx >= totalItems - (itemsPerSlide - 1)) {
+      var it = itemsPerSlide - (totalItems - idx);
+      for (var i = 0; i < it; i++) {
+        // append slides to end
+        if (e.direction == "left") {
+          $(".carousel-item")
+            .eq(i)
+            .appendTo(".carousel-inner");
+        }
+        else {
+          $(".carousel-item")
+            .eq(0)
+            .appendTo($(this).find(".carousel-inner"));
+        }
+      }
+    }
+  });
+});
+
+
+</script>
+<?php 
+if(isset($_POST['Subscribe'])){ //check if form was submitted
+    $email = $_POST['email'];
+    $checkQuery = "INSERT INTO newsletter (email) VALUES ('".$email."')";
+    $checkResult=mysqli_query($conn, $checkQuery);
+}
+?>

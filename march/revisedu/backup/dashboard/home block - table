@@ -1,0 +1,32 @@
+home block - table
+
+	id, class
+
+
+table - home block content
+	
+	id , foreign id (table block), content (heaing, sub, content)
+
+
+niche vale blocks (table)
+
+	id1, class
+	id2, class
+
+
+content 
+	
+	id, upr vali id1, content
+	id, upr vali id2, content
+
+
+right content (table)
+
+
+content blocks
+
+
+home page (main page - fetch)
+
+	class = get url
+	class home - num rows - 1 (show) else echo "";

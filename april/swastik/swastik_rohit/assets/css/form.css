@@ -1,0 +1,205 @@
+body{
+    background-color: #192b40;
+    margin: 30px;
+}
+.student{
+    width: 250px;
+    margin: 2% auto;
+    position: relative;
+
+}
+.srvc_icon{
+    width: 29px;
+    position: absolute;
+}
+.openBookIcon{
+    top: 20%;
+    right: 0;
+}
+.card
+{
+	background: transparent;
+	border:none;
+	color: white;
+	
+
+}
+button:focus {
+        outline:0;
+    }
+
+    input:focus {
+        outline:0;
+    }
+
+    .loginForm {
+        position: absolute;
+        height: 450px;
+        width: 320px;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        background-color: #050023;
+        color: white;
+        border-radius: 10px;
+        font-family: 'Lato', sans-serif;
+        font-weight: bold;
+        box-shadow: 0px 7px 23px #ffffff7a
+    }
+
+    .formHead {
+        height: 30%;
+        width: 40%;
+        text-align: center;
+        background: #ff0067;
+        margin: -58px 0 14% 30%;        
+        border-radius: 100%;
+    }
+
+    .logo {
+        padding-top: 34%;
+        font-size: 30px;
+    }
+    
+    .logo span {
+        color: #050023;
+        font-size: 32px;
+    }
+
+    .formBody {
+
+    }
+
+    .formInput {
+       width: 100%;
+       margin: 10px;
+    }
+
+    .formInput div {
+        margin-bottom: 8px;
+        text-align: center;
+        color: white;
+    }
+
+    .formInput input {
+        position: relative;
+        height: 35px;
+        width: 90%;
+        padding: 0 5%;
+        background: #050023;
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+        border-radius: 4px;
+        border: 2px solid lightblue;
+    }
+
+    .formInput input:focus {
+        border: 2px solid #007ACC;
+    }
+
+    .rememberMe {
+        margin: 8% 5%;
+    }
+
+    .loginButton {
+        margin-top: 12%;
+        text-align: center;
+    }
+
+    .loginButton button {
+        padding: 12px 70px;
+        background-color: #ff0067;
+        color: white;
+        border: 0;
+        border-radius: 5px;
+        font-weight: bold;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+
+    .forgotPass {
+        margin-top: 4%;
+        text-align: center;
+        font-size: 13px;
+        font-weight: bold;
+    }
+
+    input[type="checkbox"] {
+        display: none;
+    }
+    input[type="checkbox"]+label:before {
+        display: inline-block;
+        height: 15px;
+        width: 15px;
+        margin: 0 2% 0 0;
+        border: 2px solid #ff0067;
+        border-radius: 4px;
+        cursor: pointer;
+        vertical-align: middle;
+        content: "\00a0";
+    }
+
+    input[type="checkbox"]:checked+label:before {
+        background: #ff0067;
+        color: #050023;
+        font-size: 12px;
+        text-align: center;
+        content: "\2713";
+    }
+
+    input[type="checkbox"]:checked+label:after {
+        font-weight: bold;
+    }
+
+    @media (max-width: 480px) {
+        .loginForm {
+            height: 430px;
+            width: 300px;
+            top: 54%;
+        }
+        .formHead {
+            height: 28%;
+        }
+        .logo {
+            padding-top: 30%;
+        }
+        .loginButton {
+            margin-top: 0%;
+        }
+    }
+
+
+.p{
+	
+	font-family: 'Lobster', cursive;
+	color: white;
+	
+}
+.a
+{
+	font-size: 40px;
+}
+
+
+
+@keyframes type{ 
+  from { width: 0; } 
+} 
+
+@keyframes type2{
+  0%{width: 0;}
+  50%{width: 0;}
+  100%{ width: 100; } 
+} 
+
+@keyframes blink{
+  to{opacity: .0;}
+}
+
+::selection{
+  background: black;
+}
+#otp-field, .submit-btn, #rzp-button1{
+    display: none;
+}

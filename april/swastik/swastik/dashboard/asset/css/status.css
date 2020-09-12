@@ -1,0 +1,331 @@
+/*
+
+RESPONSTABLE 2.0 by jordyvanraaij
+  Designed mobile first!
+
+If you like this solution, you might also want to check out the 1.0 version:
+  https://gist.github.com/jordyvanraaij/9069194
+
+*/.right {
+  float: right;
+}
+
+.left {
+  float: left;
+}
+
+.rating .stars {
+  margin-right: 15px;
+}
+
+.rating .stars .star {
+  float: left;
+  padding: 5px 2px;
+  cursor: pointer;
+}
+
+.rating .stars .star:before {
+  font-family: 'FontAwesome';
+  content: '\f005';
+  color: #d0e8f0;
+  font-size: 1.2em;
+}
+
+.rating .stars .star:hover:before,
+.rating .stars .star.to_rate:before,
+.rating .stars .star.rated:before {
+  color: #80c1d5;
+}
+
+.rating .stars .star.no_to_rate:before {
+  color: #d0e8f0;
+}
+
+.back-button {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    border: #03A9F4 1px solid;
+    overflow: hidden;
+    transition: background 0.3s ease;
+  }
+  .back-button.back .arrow-wrap {
+    left: -50%;
+  }
+  .back-button:hover {
+    background: #03A9F4;
+  }
+  .back-button:hover .arrow-wrap span {
+    background: #fff;
+  }
+  .back-button .arrow-wrap {
+    display: block;
+    position: absolute;
+    height: 70%;
+    width: 70%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: left 0.3s ease;
+  }
+  .back-button .arrow-wrap span {
+    height: 1px;
+    left: 0;
+    top: 50%;
+    background: #03A9F4;
+    position: absolute;
+    display: block;
+    transition: background 0.3s ease;
+  }
+  .back-button .arrow-wrap .arrow-part-1 {
+    width: 100%;
+    transform: translate(0, -50%);
+  }
+  .back-button .arrow-wrap .arrow-part-2 {
+    width: 60%;
+    transform: rotate(-45deg);
+    transform-origin: 0 0;
+  }
+  .back-button .arrow-wrap .arrow-part-3 {
+    width: 60%;
+    transform: rotate(45deg);
+    transform-origin: 0 0;
+  }
+.back-button .arrow-wrap {
+    display: block;
+    position: absolute;
+    height: 70%;
+    width: 70%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    transition: left 0.3s ease;
+  }
+  .back-button .arrow-wrap span {
+    height: 1px;
+    left: 0;
+    top: 50%;
+    background: #03A9F4;
+    position: absolute;
+    display: block;
+    transition: background 0.3s ease;
+  }
+  .back-button .arrow-wrap .arrow-part-1 {
+    width: 100%;
+    transform: translate(0, -50%);
+  }
+  .back-button .arrow-wrap .arrow-part-2 {
+    width: 60%;
+    transform: rotate(-45deg);
+    transform-origin: 0 0;
+  }
+  .back-button .arrow-wrap .arrow-part-3 {
+    width: 60%;
+    transform: rotate(45deg);
+    transform-origin: 0 0;
+  }
+.responstable {
+    margin: 1em 0;
+    width: 100%;
+    top:30%;
+    overflow: hidden;
+    background: #FFF;
+    color: #024457;
+    border-radius: 10px;
+  
+  }
+  .responstable tr {
+    border: 1px solid #D9E4E6;
+  }
+  .responstable tr:nth-child(odd) {
+    background-color: #EAF3F3;
+  }
+  .responstable th {
+    display: none;
+    border: 1px solid black;
+    background-color: #167F92;
+    color: #FFF;
+    padding: 1em;
+  }
+  .responstable th:first-child {
+    display: table-cell;
+    text-align: center;
+  }
+  .responstable th:nth-child(2) {
+    display: table-cell;
+  }
+  .responstable th:nth-child(3) {
+    display: table-cell;
+  }
+  .responstable th:nth-child(4) {
+    display: table-cell;
+  }
+  .responstable th:nth-child(5) {
+    display: table-cell;
+  }
+   .responstable th:nth-child(6) {
+    display: table-cell;
+  }
+  .sidebar-left{
+	
+    position: relative;
+    overflow-y: scroll;
+   
+
+  }
+  .responstable {
+    margin: 1em 0;
+    width: 100%;
+    top:30%;
+    overflow: hidden;
+    background: whitex;
+    color: #024457;
+    border-radius: 10px;
+  
+  }
+  .responstable tr {
+    border: 1px solid #D9E4E6;
+  }
+  .responstable tr:nth-child(odd) {
+    background-color: #EAF3F3;
+  }
+  .responstable th {
+    display: none;
+    border: 1px solid black;
+    background-color: #167F92;
+    color: #FFF;
+    padding: 1em;
+  }
+  .responstable th:first-child {
+    display: table-cell;
+    text-align: center;
+  }
+  .responstable th:nth-child(2) {
+    display: table-cell;
+  }
+  .responstable th:nth-child(3) {
+    display: table-cell;
+  }
+  .responstable th:nth-child(4) {
+    display: table-cell;
+  }
+  .responstable th:nth-child(5) {
+    display: table-cell;
+  }
+   .responstable th:nth-child(6) {
+    display: table-cell;
+  }
+  .responstable th:nth-child(7) {
+    display: table-cell;
+  }
+  .responstable th:nth-child(8) {
+    display: table-cell;
+  }
+   .responstable th:nth-child(9) {
+    display: table-cell;
+  }
+  .responstable th:nth-child(10) {
+    display: table-cell;
+  }
+  .responstable th:nth-child(2) span {
+    display: block;
+  }
+  .responstable th:nth-child(2) span {
+    display: block;
+  }
+.btn{
+  margin:200px;
+}
+  
+  @media (min-width: 280px) and (max-width:900px) {
+	#page-wrapper{
+			
+			max-width:100%;
+			
+			overflow:scroll;
+		}
+		.responstable {
+    margin: 6em 0;
+    width: 10%;
+    top:30%;
+	overflow: scroll;
+
+    background: white;
+    color: #024457;
+    border-radius: 10px;
+  
+  }
+ 
+ 
+  }
+
+  .responstable th:nth-child(2) span {
+    display: block;
+  }
+  .responstable th:nth-child(2):after {
+    content: attr(data-th);
+  }
+
+  }
+  .responstable td {
+    display: block;
+    word-wrap: break-word;
+    max-width: 7em;
+  }
+  .responstable td:first-child {
+    display: table-cell;
+    text-align: center;
+    border-right: 1px solid #D9E4E6;
+  }
+  @media (min-width: 480px) {
+    .responstable td {
+      border: 1px solid #D9E4E6;
+    }
+  }
+  .responstable th, .responstable td {
+    text-align: left;
+    margin: .5em 1em;
+  }
+  @media (min-width: 480px) {
+    .responstable th, .responstable td {
+      display: table-cell;
+      padding: 1em;
+    }
+  }
+  
+  body {
+    padding: 0 2em;
+    font-family: Arial, sans-serif;
+    color: #024457;
+    background: #f2f2f2;
+  }
+  
+  h1 {
+    font-family: Verdana;
+    font-weight: normal;
+    color: #024457;
+  }
+  h1 span {
+    color: #167F92;
+  }
+    .responstable th:nth-child(8) {
+    display: table-cell;
+  }
+   .responstable th:nth-child(9) {
+    display: table-cell;
+  }
+  .responstable th:nth-child(10) {
+    display: table-cell;
+  }
+  .responstable th:nth-child(2) span {
+    display: block;
+  }
+  .responstable th:nth-child(2) span {
+    display: block;
+  }
+
+  

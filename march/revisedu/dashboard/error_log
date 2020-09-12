@@ -1,0 +1,265 @@
+[14-Mar-2020 13:15:58 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/gurukulf/public_html/test/dashboard/include/connection.php on line 8
+[14-Mar-2020 13:15:59 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/gurukulf/public_html/test/dashboard/include/connection.php on line 8
+[14-Mar-2020 13:16:02 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/gurukulf/public_html/test/dashboard/include/connection.php on line 8
+[16-Mar-2020 00:24:56 UTC] PHP Warning:  mysqli::__construct(): (28000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/gurukulf/public_html/test/dashboard/include/connection.php on line 8
+[16-Mar-2020 00:26:47 UTC] PHP Warning:  mysqli::__construct(): (42000/1044): Access denied for user 'gurukulf_gurukul'@'localhost' to database 'gurukulf_gurukulf' in /home/gurukulf/public_html/test/dashboard/include/connection.php on line 8
+[16-Mar-2020 00:26:58 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/gurukulf/public_html/test/dashboard/viewContact.php:28
+Stack trace:
+#0 {main}
+  thrown in /home/gurukulf/public_html/test/dashboard/viewContact.php on line 28
+[16-Mar-2020 00:27:03 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/gurukulf/public_html/test/dashboard/include/cons_admin.php:5
+Stack trace:
+#0 /home/gurukulf/public_html/test/dashboard/aboutUs.php(30): require()
+#1 {main}
+  thrown in /home/gurukulf/public_html/test/dashboard/include/cons_admin.php on line 5
+[16-Mar-2020 00:27:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/gurukulf/public_html/test/dashboard/include/cons_admin.php:5
+Stack trace:
+#0 /home/gurukulf/public_html/test/dashboard/aboutUs.php(30): require()
+#1 {main}
+  thrown in /home/gurukulf/public_html/test/dashboard/include/cons_admin.php on line 5
+[16-Mar-2020 00:28:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/gurukulf/public_html/test/dashboard/include/cons_admin.php:5
+Stack trace:
+#0 /home/gurukulf/public_html/test/dashboard/aboutUs.php(30): require()
+#1 {main}
+  thrown in /home/gurukulf/public_html/test/dashboard/include/cons_admin.php on line 5
+[16-Mar-2020 00:28:35 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/gurukulf/public_html/test/dashboard/include/cons_admin.php:5
+Stack trace:
+#0 /home/gurukulf/public_html/test/dashboard/aboutUs.php(30): require()
+#1 {main}
+  thrown in /home/gurukulf/public_html/test/dashboard/include/cons_admin.php on line 5
+[16-Mar-2020 10:23:58 UTC] PHP Notice:  Undefined index: attendance in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 5
+[16-Mar-2020 10:23:58 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 5
+[16-Mar-2020 10:27:29 UTC] PHP Notice:  Undefined index: attendance in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 5
+[16-Mar-2020 10:27:29 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 5
+[16-Mar-2020 10:27:35 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 10
+[16-Mar-2020 10:27:35 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 10
+[16-Mar-2020 10:27:35 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 10
+[16-Mar-2020 10:27:35 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 10
+[16-Mar-2020 10:27:35 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 10
+[16-Mar-2020 10:27:35 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 10
+[16-Mar-2020 10:27:35 UTC] PHP Warning:  explode() expects parameter 2 to be string, array given in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 10
+[16-Mar-2020 10:36:04 UTC] PHP Notice:  Undefined index: attendance in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 5
+[16-Mar-2020 10:36:04 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 5
+[16-Mar-2020 10:52:36 UTC] PHP Notice:  Undefined index: batch in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 8
+[16-Mar-2020 16:22:36 Asia/Kolkata] PHP Notice:  Undefined variable: student_ids in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 22
+[16-Mar-2020 16:22:36 Asia/Kolkata] PHP Notice:  Undefined variable: student_ids_attendance in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 26
+[16-Mar-2020 16:22:36 Asia/Kolkata] PHP Notice:  Undefined variable: student_ids_attendance in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 34
+[16-Mar-2020 16:22:36 Asia/Kolkata] PHP Notice:  Undefined variable: student_ids_attendance in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 26
+[16-Mar-2020 16:22:36 Asia/Kolkata] PHP Notice:  Undefined variable: student_ids_attendance in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 34
+[16-Mar-2020 10:52:56 UTC] PHP Notice:  Undefined index: batch in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 8
+[16-Mar-2020 16:22:56 Asia/Kolkata] PHP Notice:  Undefined variable: student_ids in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 22
+[16-Mar-2020 16:22:56 Asia/Kolkata] PHP Notice:  Undefined variable: student_ids_attendance in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 26
+[16-Mar-2020 16:22:56 Asia/Kolkata] PHP Notice:  Undefined variable: student_ids_attendance in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 34
+[16-Mar-2020 16:22:56 Asia/Kolkata] PHP Notice:  Undefined variable: student_ids_attendance in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 26
+[16-Mar-2020 16:22:56 Asia/Kolkata] PHP Notice:  Undefined variable: student_ids_attendance in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 34
+[16-Mar-2020 10:54:55 UTC] PHP Parse error:  syntax error, unexpected ',', expecting :: (T_PAAMAYIM_NEKUDOTAYIM) in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 24
+[16-Mar-2020 10:57:15 UTC] PHP Notice:  Undefined index: batch in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 8
+[16-Mar-2020 16:27:15 Asia/Kolkata] PHP Notice:  Undefined variable: student_ids in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 22
+[16-Mar-2020 16:27:15 Asia/Kolkata] PHP Notice:  Undefined variable: student_ids_attendance in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 26
+[16-Mar-2020 16:27:15 Asia/Kolkata] PHP Warning:  Invalid argument supplied for foreach() in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 26
+[16-Mar-2020 16:27:15 Asia/Kolkata] PHP Notice:  Undefined variable: student_ids_attendance in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 26
+[16-Mar-2020 16:27:15 Asia/Kolkata] PHP Warning:  Invalid argument supplied for foreach() in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 26
+[16-Mar-2020 16:28:11 Asia/Kolkata] PHP Warning:  implode(): Invalid arguments passed in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 19
+[16-Mar-2020 16:28:11 Asia/Kolkata] PHP Warning:  implode(): Invalid arguments passed in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 19
+[16-Mar-2020 16:28:11 Asia/Kolkata] PHP Warning:  implode(): Invalid arguments passed in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 19
+[16-Mar-2020 16:28:11 Asia/Kolkata] PHP Warning:  implode(): Invalid arguments passed in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 19
+[16-Mar-2020 16:28:11 Asia/Kolkata] PHP Warning:  implode(): Invalid arguments passed in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 19
+[16-Mar-2020 16:28:11 Asia/Kolkata] PHP Warning:  implode(): Invalid arguments passed in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 19
+[16-Mar-2020 16:28:11 Asia/Kolkata] PHP Warning:  implode(): Invalid arguments passed in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 19
+[16-Mar-2020 16:28:11 Asia/Kolkata] PHP Warning:  implode(): Invalid arguments passed in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 19
+[16-Mar-2020 16:28:11 Asia/Kolkata] PHP Warning:  implode(): Invalid arguments passed in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 19
+[16-Mar-2020 16:28:11 Asia/Kolkata] PHP Warning:  implode(): Invalid arguments passed in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 19
+[16-Mar-2020 16:28:11 Asia/Kolkata] PHP Warning:  implode(): Invalid arguments passed in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 19
+[16-Mar-2020 16:28:11 Asia/Kolkata] PHP Warning:  implode(): Invalid arguments passed in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 19
+[16-Mar-2020 16:28:11 Asia/Kolkata] PHP Notice:  Undefined variable: student_ids_attendance in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 26
+[16-Mar-2020 16:28:11 Asia/Kolkata] PHP Warning:  Invalid argument supplied for foreach() in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 26
+[16-Mar-2020 16:28:11 Asia/Kolkata] PHP Notice:  Undefined variable: student_ids_attendance in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 26
+[16-Mar-2020 16:28:11 Asia/Kolkata] PHP Warning:  Invalid argument supplied for foreach() in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 26
+[16-Mar-2020 16:28:11 Asia/Kolkata] PHP Notice:  Undefined variable: student_ids_attendance in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 26
+[16-Mar-2020 16:28:11 Asia/Kolkata] PHP Warning:  Invalid argument supplied for foreach() in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 26
+[16-Mar-2020 16:28:11 Asia/Kolkata] PHP Notice:  Undefined variable: student_ids_attendance in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 26
+[16-Mar-2020 16:28:11 Asia/Kolkata] PHP Warning:  Invalid argument supplied for foreach() in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 26
+[16-Mar-2020 16:31:54 Asia/Kolkata] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 19
+[16-Mar-2020 16:31:54 Asia/Kolkata] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 19
+[16-Mar-2020 16:31:54 Asia/Kolkata] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 19
+[16-Mar-2020 16:31:54 Asia/Kolkata] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 19
+[16-Mar-2020 16:31:54 Asia/Kolkata] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 19
+[16-Mar-2020 16:31:54 Asia/Kolkata] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 19
+[16-Mar-2020 16:31:54 Asia/Kolkata] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 19
+[16-Mar-2020 16:31:54 Asia/Kolkata] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 19
+[16-Mar-2020 16:31:54 Asia/Kolkata] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 19
+[16-Mar-2020 16:31:54 Asia/Kolkata] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 19
+[16-Mar-2020 16:31:54 Asia/Kolkata] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 19
+[16-Mar-2020 16:31:54 Asia/Kolkata] PHP Warning:  array_push() expects parameter 1 to be array, null given in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 19
+[16-Mar-2020 16:31:54 Asia/Kolkata] PHP Warning:  implode(): Invalid arguments passed in /home/gurukulf/public_html/test/dashboard/sendAttendance.php on line 22
+[16-Mar-2020 21:42:20 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gurukulf/public_html/test/dashboard/getAttendance.php on line 16
+[16-Mar-2020 21:42:21 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gurukulf/public_html/test/dashboard/getAttendance.php on line 16
+[16-Mar-2020 21:42:21 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gurukulf/public_html/test/dashboard/getAttendance.php on line 16
+[16-Mar-2020 21:42:21 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gurukulf/public_html/test/dashboard/getAttendance.php on line 16
+[16-Mar-2020 21:42:22 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gurukulf/public_html/test/dashboard/getAttendance.php on line 16
+[16-Mar-2020 21:42:35 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gurukulf/public_html/test/dashboard/getAttendance.php on line 16
+[16-Mar-2020 21:42:37 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gurukulf/public_html/test/dashboard/getAttendance.php on line 16
+[16-Mar-2020 21:50:01 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gurukulf/public_html/test/dashboard/getAttendance.php on line 16
+[16-Mar-2020 21:51:22 UTC] PHP Notice:  Undefined variable: id in /home/gurukulf/public_html/test/dashboard/getAttendance.php on line 27
+[16-Mar-2020 21:53:14 UTC] PHP Notice:  Undefined variable: id in /home/gurukulf/public_html/test/dashboard/getAttendance.php on line 27
+[16-Mar-2020 22:04:19 UTC] PHP Notice:  Undefined variable: attendance in /home/gurukulf/public_html/test/dashboard/getAttendance.php on line 26
+[16-Mar-2020 22:05:10 UTC] PHP Notice:  Undefined variable: attendance in /home/gurukulf/public_html/test/dashboard/getAttendance.php on line 26
+[16-Mar-2020 22:17:37 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gurukulf/public_html/test/dashboard/include/sidebar.php:1) in /home/gurukulf/public_html/test/dashboard/block.php on line 84
+[16-Mar-2020 22:17:41 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gurukulf/public_html/test/dashboard/include/sidebar.php:1) in /home/gurukulf/public_html/test/dashboard/unblock.php on line 84
+[16-Mar-2020 22:18:18 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gurukulf/public_html/test/dashboard/include/sidebar.php:1) in /home/gurukulf/public_html/test/dashboard/addStudent.php on line 84
+[18-Mar-2020 14:06:01 UTC] PHP Parse error:  syntax error, unexpected '$checkResult' (T_VARIABLE) in /home/gurukulf/public_html/test/dashboard/gallery.php on line 59
+[18-Mar-2020 14:06:27 UTC] PHP Parse error:  syntax error, unexpected '$checkResult' (T_VARIABLE) in /home/gurukulf/public_html/test/dashboard/gallery.php on line 59
+[18-Mar-2020 14:06:56 UTC] PHP Parse error:  syntax error, unexpected 'mysqli_query' (T_STRING) in /home/gurukulf/public_html/test/dashboard/gallery.php on line 59
+[18-Mar-2020 14:07:36 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/gurukulf/public_html/test/dashboard/gallery.php on line 59
+[18-Mar-2020 14:07:56 UTC] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/gurukulf/public_html/test/dashboard/gallery.php on line 59
+[18-Mar-2020 14:08:17 UTC] PHP Notice:  Undefined index: id in /home/gurukulf/public_html/test/dashboard/gallery.php on line 57
+[18-Mar-2020 14:08:21 UTC] PHP Notice:  Undefined index: id in /home/gurukulf/public_html/test/dashboard/gallery.php on line 57
+[18-Mar-2020 14:09:16 UTC] PHP Notice:  Undefined index: id in /home/gurukulf/public_html/test/dashboard/gallery.php on line 57
+[18-Mar-2020 14:10:16 UTC] PHP Notice:  Undefined index: id in /home/gurukulf/public_html/test/dashboard/gallery.php on line 57
+[18-Mar-2020 14:10:54 UTC] PHP Notice:  Undefined index: id in /home/gurukulf/public_html/test/dashboard/gallery.php on line 57
+[18-Mar-2020 14:12:46 UTC] PHP Notice:  Undefined index: id in /home/gurukulf/public_html/test/dashboard/gallery.php on line 57
+[18-Mar-2020 14:43:45 UTC] PHP Notice:  Undefined index: id in /home/gurukulf/public_html/test/dashboard/gallery.php on line 57
+[18-Mar-2020 14:44:54 UTC] PHP Notice:  Undefined index: id in /home/gurukulf/public_html/test/dashboard/gallery.php on line 57
+[18-Mar-2020 14:57:13 UTC] PHP Notice:  Undefined index: fileToUpload in /home/gurukulf/public_html/test/dashboard/gallery.php on line 81
+[18-Mar-2020 14:57:34 UTC] PHP Notice:  Undefined index: fileToUpload in /home/gurukulf/public_html/test/dashboard/gallery.php on line 80
+[18-Mar-2020 14:57:39 UTC] PHP Notice:  Undefined index: fileToUpload in /home/gurukulf/public_html/test/dashboard/gallery.php on line 80
+[18-Mar-2020 14:57:41 UTC] PHP Notice:  Undefined index: fileToUpload in /home/gurukulf/public_html/test/dashboard/gallery.php on line 80
+[18-Mar-2020 14:57:41 UTC] PHP Notice:  Undefined index: fileToUpload in /home/gurukulf/public_html/test/dashboard/gallery.php on line 85
+[18-Mar-2020 14:57:41 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/gurukulf/public_html/test/dashboard/gallery.php on line 85
+[18-Mar-2020 14:58:45 UTC] PHP Notice:  Undefined index: fileToUpload in /home/gurukulf/public_html/test/dashboard/gallery.php on line 80
+[18-Mar-2020 14:58:45 UTC] PHP Notice:  Undefined index: fileToUpload in /home/gurukulf/public_html/test/dashboard/gallery.php on line 85
+[18-Mar-2020 14:58:45 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/gurukulf/public_html/test/dashboard/gallery.php on line 85
+[18-Mar-2020 14:58:47 UTC] PHP Notice:  Undefined index: fileToUpload in /home/gurukulf/public_html/test/dashboard/gallery.php on line 80
+[18-Mar-2020 14:58:50 UTC] PHP Notice:  Undefined index: fileToUpload in /home/gurukulf/public_html/test/dashboard/gallery.php on line 80
+[18-Mar-2020 14:58:50 UTC] PHP Notice:  Undefined index: fileToUpload in /home/gurukulf/public_html/test/dashboard/gallery.php on line 85
+[18-Mar-2020 14:58:50 UTC] PHP Warning:  getimagesize(): Filename cannot be empty in /home/gurukulf/public_html/test/dashboard/gallery.php on line 85
+[18-Mar-2020 15:15:44 UTC] PHP Notice:  Undefined index: image in /home/gurukulf/public_html/test/dashboard/gallery.php on line 81
+[18-Mar-2020 15:15:47 UTC] PHP Notice:  Undefined index: image in /home/gurukulf/public_html/test/dashboard/gallery.php on line 81
+[18-Mar-2020 15:16:36 UTC] PHP Notice:  Undefined index: image in /home/gurukulf/public_html/test/dashboard/gallery.php on line 81
+[18-Mar-2020 15:16:39 UTC] PHP Notice:  Undefined index: image in /home/gurukulf/public_html/test/dashboard/gallery.php on line 81
+[18-Mar-2020 17:44:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_assoc() on boolean in /home/gurukulf/public_html/test/dashboard/include/cons_student.php:6
+Stack trace:
+#0 /home/gurukulf/public_html/test/dashboard/include/header.php(54): require()
+#1 /home/gurukulf/public_html/test/dashboard/studentDashboard.php(1): include('/home/gurukulf/...')
+#2 {main}
+  thrown in /home/gurukulf/public_html/test/dashboard/include/cons_student.php on line 6
+[18-Mar-2020 17:45:30 UTC] PHP Notice:  Undefined variable: studentid in /home/gurukulf/public_html/test/dashboard/attendance.php on line 37
+[18-Mar-2020 17:47:09 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gurukulf/public_html/test/dashboard/addStudent.php on line 28
+[18-Mar-2020 17:47:40 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:47:40 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:47:40 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:47:40 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:47:40 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:47:40 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:47:40 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:47:40 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:47:40 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:47:40 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:47:40 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:47:40 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:47:42 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, boolean given in /home/gurukulf/public_html/test/dashboard/unblock.php on line 28
+[18-Mar-2020 17:48:07 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:48:07 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:48:07 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:48:07 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:48:07 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:48:07 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:48:07 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:48:07 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:48:07 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:48:07 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:48:07 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:48:07 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:51:53 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:51:53 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:51:53 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:51:53 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:51:53 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:51:53 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:51:53 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:51:53 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:51:53 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:51:53 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:51:53 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:51:53 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:53:54 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gurukulf/public_html/test/dashboard/include/sidebar.php:1) in /home/gurukulf/public_html/test/dashboard/addStudent.php on line 84
+[18-Mar-2020 17:53:58 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gurukulf/public_html/test/dashboard/include/sidebar.php:1) in /home/gurukulf/public_html/test/dashboard/addStudent.php on line 84
+[18-Mar-2020 17:54:00 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:54:00 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:54:00 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:54:00 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:54:00 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:54:00 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:54:00 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:54:00 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:54:00 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:54:00 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:54:00 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:54:00 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:54:02 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:54:02 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:54:02 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:54:02 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:54:02 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:54:02 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:54:02 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:54:02 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:54:02 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:54:02 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:54:02 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:54:02 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:54:02 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gurukulf/public_html/test/dashboard/include/sidebar.php:1) in /home/gurukulf/public_html/test/dashboard/block.php on line 84
+[18-Mar-2020 17:54:04 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:54:04 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:54:04 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:54:04 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:54:04 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:54:04 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:54:04 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:54:04 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:54:04 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:54:04 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:54:04 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:54:04 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:54:04 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gurukulf/public_html/test/dashboard/include/sidebar.php:1) in /home/gurukulf/public_html/test/dashboard/block.php on line 84
+[18-Mar-2020 17:54:07 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:54:07 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:54:07 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:54:07 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:54:07 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:54:07 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:54:07 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:54:07 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:54:07 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:54:07 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:54:07 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:54:07 UTC] PHP Notice:  Undefined index: studentid in /home/gurukulf/public_html/test/dashboard/block.php on line 57
+[18-Mar-2020 17:54:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gurukulf/public_html/test/dashboard/include/sidebar.php:1) in /home/gurukulf/public_html/test/dashboard/block.php on line 84
+[18-Mar-2020 17:55:07 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gurukulf/public_html/test/dashboard/include/sidebar.php:1) in /home/gurukulf/public_html/test/dashboard/block.php on line 84
+[18-Mar-2020 17:55:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gurukulf/public_html/test/dashboard/include/sidebar.php:1) in /home/gurukulf/public_html/test/dashboard/block.php on line 84
+[18-Mar-2020 18:37:51 UTC] PHP Parse error:  syntax error, unexpected '--' (T_DEC) in /home/gurukulf/public_html/test/dashboard/gallery.php on line 78
+[18-Mar-2020 18:38:31 UTC] PHP Notice:  Undefined index: id in /home/gurukulf/public_html/test/dashboard/gallery.php on line 66
+[18-Mar-2020 18:44:32 UTC] PHP Notice:  Undefined index: id in /home/gurukulf/public_html/test/dashboard/gallery.php on line 67
+[18-Mar-2020 18:46:51 UTC] PHP Notice:  Undefined index: id in /home/gurukulf/public_html/test/dashboard/gallery.php on line 66
+[18-Mar-2020 18:51:30 UTC] PHP Notice:  Undefined index: id in /home/gurukulf/public_html/test/dashboard/gallery.php on line 66
+[18-Mar-2020 19:28:43 UTC] PHP Notice:  Undefined index: id in /home/gurukulf/public_html/test/dashboard/gallery.php on line 58
+[18-Mar-2020 20:55:58 UTC] PHP Notice:  Undefined index: islogin in /home/gurukulf/public_html/test/dashboard/include/header_admin.php on line 3
+[18-Mar-2020 20:58:27 UTC] PHP Notice:  Undefined index: islogin in /home/gurukulf/public_html/test/dashboard/include/header.php on line 3
+[18-Mar-2020 20:59:05 UTC] PHP Notice:  Undefined index: islogin in /home/gurukulf/public_html/test/dashboard/include/header.php on line 3
+[18-Mar-2020 20:59:09 UTC] PHP Notice:  Undefined index: islogin in /home/gurukulf/public_html/test/dashboard/include/header.php on line 3
+[18-Mar-2020 20:59:12 UTC] PHP Notice:  Undefined index: islogin in /home/gurukulf/public_html/test/dashboard/include/header.php on line 3
+[18-Mar-2020 20:59:15 UTC] PHP Notice:  Undefined index: islogin in /home/gurukulf/public_html/test/dashboard/include/header.php on line 3
+[18-Mar-2020 21:10:49 UTC] PHP Notice:  Undefined index: islogin in /home/gurukulf/public_html/test/dashboard/include/header_admin.php on line 3
+[18-Mar-2020 21:10:49 UTC] PHP Notice:  Undefined index: type in /home/gurukulf/public_html/test/dashboard/include/header_admin.php on line 3
+[18-Mar-2020 21:10:53 UTC] PHP Notice:  Undefined index: islogin in /home/gurukulf/public_html/test/dashboard/include/header.php on line 3
+[18-Mar-2020 21:10:57 UTC] PHP Notice:  Undefined index: islogin in /home/gurukulf/public_html/test/dashboard/include/header.php on line 3
+[18-Mar-2020 21:11:52 UTC] PHP Notice:  Undefined index: islogin in /home/gurukulf/public_html/test/dashboard/include/header.php on line 3
+[18-Mar-2020 21:13:25 UTC] PHP Notice:  Undefined index: islogin in /home/gurukulf/public_html/test/dashboard/include/header_admin.php on line 3
+[18-Mar-2020 21:13:25 UTC] PHP Notice:  Undefined index: type in /home/gurukulf/public_html/test/dashboard/include/header_admin.php on line 3
+[18-Mar-2020 21:30:00 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/gurukulf/public_html/test/dashboard/include/sidebar.php:1) in /home/gurukulf/public_html/test/dashboard/unblock.php on line 84
+[18-Mar-2020 21:30:02 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function split() in /home/gurukulf/public_html/test/dashboard/block.php:52
+Stack trace:
+#0 {main}
+  thrown in /home/gurukulf/public_html/test/dashboard/block.php on line 52
+[18-Mar-2020 21:31:39 UTC] PHP Notice:  Undefined index: type in /home/gurukulf/public_html/test/dashboard/include/header_admin.php on line 6
+[18-Mar-2020 21:31:39 UTC] PHP Notice:  Undefined index: type in /home/gurukulf/public_html/test/dashboard/include/header_admin.php on line 9

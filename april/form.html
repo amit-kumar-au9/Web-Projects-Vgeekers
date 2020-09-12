@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <form class="needs-validation" novalidate style="width: 50%;margin: 20px;border: 1px solid black;padding: 10px">
+      <h1 style="text-align: center;background: purple;color: white;padding: 10px;">Registration</h1>
+      <div class="form-row">
+        <div class="col-md-6 mb-3">
+          <label for="validationCustom01">Age Group</label>
+          <div class="form-group">
+            <select class="custom-select" required>
+              <option value="">Open this select menu</option>
+              <option value="U-16">U-16</option>
+              <option value="U-21">U-21</option>
+            </select>
+            <div class="invalid-feedback">Kindly Select the age group</div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-3">
+          <label for="validationCustom01">Player Status</label>
+          <div class="form-group">
+            <select class="custom-select" required>
+              <option value="">Select</option>
+              <option value="Batsmen">Batsmen</option>
+              <option value="Bowler">Bowler</option>
+              <option value="Wicket Keeper">Wicket Keeper</option>
+              <option value="Allrounder">Allrounder</option>
+            </select>
+            <div class="invalid-feedback">Kindly Select the your Player Status</div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-3">
+          <label for="validationCustom01">Name</label>
+          <input type="text" class="form-control" id="validationCustom01" placeholder="name" name="name" required>
+          <div class="invalid-feedback">
+            Kindly Write your Name
+          </div>
+        </div>
+        <div class="col-md-6 mb-3">
+          <label for="validationCustom02">Photo</label>
+          <input type="file" class="form-control" id="validationCustom02" placeholder="Photo" name="photo" required>
+          <div class="invalid-feedback">
+            Kindly Upload your photo
+          </div>
+        </div>
+        <div class="col-md-6 mb-3">
+          <label for="validationCustomUsername">Mobile</label>
+          <div class="input-group">
+            <input type="number" class="form-control" id="phone" placeholder="Mobile Number" aria-describedby="inputGroupPrepend"  maxlength="10" minlength="10" required>
+            <div class="invalid-feedback">
+              Kindly enter your mobile number.
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-3">
+          <label for="validationCustomUsername">Email</label>
+          <div class="input-group">
+            <input type="email" class="form-control" id="validationCustomUsername" placeholder="Email" aria-describedby="inputGroupPrepend" required>
+            <div class="invalid-feedback">
+              Kindly enter your email.
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-3">
+          <label for="validationCustomUsername">State</label>
+          <div class="form-group">
+            <select name="state" class="form-control"  id="countrySelect" required onchange="makeSubmenu(this.value)">
+              <option value="">Select State</option>
+              <option value="Andaman Nicobar">Andaman Nicobar</option>
+              <option value="AndhraPradesh">Andhra Pradesh</option>
+              <option value="ArunachalPradesh">Arunachal Pradesh</option>
+              <option value="Assam">Assam</option>
+              <option value="Bihar">Bihar</option>
+              <option value="Chandigarh">Chandigarh</option>
+              <option value="Chhattisgarh">Chhattisgarh</option>
+              <option value="DadraNagarHaveli">Dadra Nagar Haveli</option>
+              <option value="DamanDiu">Daman Diu</option>
+              <option value="Delhi">Delhi</option>
+              <option value="Goa">Goa</option>
+              <option value="Gujarat">Gujarat</option>
+              <option value="Haryana">Haryana</option>
+              <option value="HimachalPradesh">Himachal Pradesh</option>
+              <option value="JammuKashmir">Jammu Kashmir</option>
+              <option value="Jharkhand">Jharkhand</option>
+              <option value="Karnataka">Karnataka</option>
+              <option value="Kerala">Kerala</option>
+              <option value="Ladakh">Ladakh</option>
+              <option value="Lakshadweep">Lakshadweep</option>
+              <option value="MadhyaPradesh">Madhya Pradesh</option>
+              <option value="Maharashtra">Maharashtra</option>
+              <option value="Manipur">Manipur</option>
+              <option value="Meghalaya">Meghalaya</option>
+              <option value="Mizoram">Mizoram</option>
+              <option value="Nagaland">Nagaland</option>
+              <option value="Odisha">Odisha</option>
+              <option value="Puducherry">Puducherry</option>
+              <option value="Punjab">Punjab</option>
+              <option value="Rajasthan">Rajasthan</option>
+              <option value="Sikkim">Sikkim</option>
+              <option value="TamilNadu">Tamil Nadu</option>
+              <option value="Telangana">Telangana</option>
+              <option value="Tripura">Tripura</option>
+              <option value="UttarPradesh">Uttar Pradesh</option>
+              <option value="Uttarakhand">Uttarakhand</option>
+              <option value="WestBengal">West Bengal</option>
+            </select>
+            <div class="invalid-feedback">Kindly Select Your State</div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-3">
+          <label for="validationCustomUsername" >District</label>
+          <div class="input-group">
+            <select class="custom-select" required id="citySelect">
+              <option value="">Select District</option>
+              <option value="U-16"></option>
+            </select>
+            <div class="invalid-feedback">
+              Kindly select your district.
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="col-md-6 mb-3">
+          <label for="validationCustom03">Area</label>
+          <input type="text" class="form-control" id="validationCustom03" placeholder="Area" required>
+          <div class="invalid-feedback">
+            Please provide your area.
+          </div>
+        </div>
+        <div class="col-md-6 mb-3">
+          <label for="validationCustom05">Pin</label>
+          <input type="number" class="form-control" id="validationCustom05" placeholder="Pin" required maxlength="6" minlength="6">
+          <div class="invalid-feedback">
+            Please provide a valid zip.
+          </div>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="col-md-6 mb-3">
+          <label for="validationCustom03">DOB</label>
+          <input type="date" class="form-control" id="validationCustom03" placeholder="DOB" required>
+          <div class="invalid-feedback">
+            Please provide your DOB.
+          </div>
+        </div>
+        <div class="col-md-6 mb-3">
+          <label for="validationCustom05">Age proof</label>
+          <select class="custom-select" required>
+            <option value="">Select</option>
+            <option value="Passport">Passport</option>
+            <option value="Pancard">Pan Card</option>
+            <option value="Aadhar Card">Adhaar Card No</option>
+          </select>
+          <div class="invalid-feedback">
+            Please provide a valid zip.
+          </div>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="col-md-6 mb-3">
+          <label for="validationCustom03">Age Proof</label>
+          <input type="file" class="form-control" id="validationCustom03" placeholder="age Proof" required>
+          <div class="invalid-feedback">
+            Please provide your proof.
+          </div>
+        </div>
+        <div class="col-md-6 mb-3">
+          <label for="validationCustom05">Shirt Size</label>
+          <select class="custom-select" required>
+            <option value="">Select</option>
+            <option value="S">S</option>
+            <option value="M">M</option>
+            <option value="L">L</option>
+            <option value="XL">XL</option>
+            <option value="XXL">XXL</option>
+          </select>
+          <div class="invalid-feedback">
+            Please provide your size.
+          </div>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+          <label class="form-check-label" for="invalidCheck">
+          Agree to terms and conditions
+          </label>
+          <div class="invalid-feedback">
+            You must agree before submitting.
+          </div>
+        </div>
+      </div>
+      <button class="btn btn-danger" type="submit" style="width: 100%">Submit form</button>
+    </form>
+    <script>
+      // Example starter JavaScript for disabling form submissions if there are invalid fields
+      (function() {
+        'use strict';
+        window.addEventListener('load', function() {
+          // Fetch all the forms we want to apply custom Bootstrap validation styles to
+          var forms = document.getElementsByClassName('needs-validation');
+          // Loop over them and prevent submission
+          var validation = Array.prototype.filter.call(forms, function(form) {
+            form.addEventListener('submit', function(event) {
+              if (form.checkValidity() === false) {
+                event.preventDefault();
+                event.stopPropagation();
+              }
+              form.classList.add('was-validated');
+            }, false);
+          });
+        }, false);
+      })();
+    </script>
+    <script type="text/javascript">
+      var citiesByState = {
+        AndhraPradesh:["Anantpur","Chitoor","East Godavari","Guntur","Kapada","Krishna","Kurnool","Nellore","Prakasham","Srikakululam","Visakhapatnam","Vizinigaram","West Godavari"],
+        ArunachalPradesh:["Anjaw","Central Siang","Changlang","Dibang Valley","East Kameng","East Siang","Kamle","Kra Daadi","Kurung Kumey","Lepa Rada","Lohit","Longding","Lower Dibang Valley","Lower Siang","Lower Subansiri","Namsai","Pakke Kessang","Papum Pare","Shi Yomi","Tawang","Tirap"],
+        Assam:["Baksa","Barpeta","Biswanth","Bongaigaon","Chachar","Charaideo","Chirang","Darrang","Demaji","Dubri","Dibrugarh","Dima Hasao","Goalpara","Golaghat","Hailakandi","Hojai","Jorhat","Kamrup","Kamrup Metropolitan","Karbi Anglong","Karimganj","Kokrajhar","Laxmipur","Majuli","Morigaon","Nagaon","Nalbari","Sivasagar","Sonitpur"],
+        Bihar:["Araria","Arwal","Banka","Begusarai","Bhagalpur","Bhojpur", "Buxar","Darbhanga","East Champaran","Gaya","Gopalganj", "Jamui","Jehanabad","Kaimur","kaithar","Khagaria","Kishanganj","Lakhisarai","Madhepura","Madhubani","Munger","Muzaffaepur","Nalanda","Nawada","Patna","Purnia","Rohats","Saharsa","Samastipur","Saran","Sheikpura","Sheohar","Sitamarhi","Siwan"
+        ],
+        Chandigarh:["Chandigarh"],
+        Chhattisgarh:["Balod","Balada Bazar","Balrampur","Bastar","Bemetara","Bijapur","Bilaspur","Dantewada","Dhamtari","Durg","Gariaband","Gaurela Pendra Marwahi","Janjgir Champa","Jashpur","Kabirdham","Kanker","Kondagoan","Korba","Koriya","Mahasamund","Mungeli","Narayanpur","Raigarh","Raipur","Sukma","Surajpur","Surguja"],
+        DadraNagarHaveli:["Dagra Nagar Haveli"],
+        DamanDiu:["Daman","Diu"],
+        Delhi:["Central Delhi","East Delhi","New Delhi","North Delhi","North East Delhi","North West Delhi","Shahdara","South Delhi","South east Delhi","South West Delhi","West Delhi"],
+        Goa:["North Goa","South Goa"],
+        Gujarat:["Ahmedabad","Amreli","Anand","Aravali","Banaskantha","Bharuch","Bhavnagar","Botad","Chhota Udaipur",
+        "Dahod","Dang","Devbhoomi Dwarka","Gandhi nagar","Gir Somnath","Jamnagar","Junagadh","Kheda","Kutch","Mahisagar","Mehsana","Morbi","Narmada","Navsari","Panchmahal","Patan","Parbandar","Rajkot","Sabarkantha","Surat","Surendranagar","Tapi","Vadodara","Valsad"],
+        Haryana:["Ambala","Bhiwani","Charkhi Dadri","Faridabad","Fatehabad","Gurugram","Hisar","Jhajjar","Jind","Kaithal","Karnal","Kurushetra","Mahendragarh","Mewat","Palwal","Panchkula","Panipat","Rewari","Rohtak","Sirsa","Sonipat","Yamunanagar"],
+        HimachalPradesh:["Bilaspur","Chamba","Hamirpur","Kangra","Kinnaur","Kullu","Lahaul Spiti","Mandi","Shimla","Sirmaur","Solan","Una"],
+        JammuKashmir:["Anantnag","Bandipora","Baramulla","Budgam","Doda","Ganderbal","Jammu","Kathua","Kishtwar","Kulgam","Kupwara","Poonch","Pulwama","Rajouri","Ramban","Reasi","Samba","Shopian","Srinagar","Udhampur"],
+        Jharkhand:["Bokaro","Chatra","Deoghar","Danbag","Dumka","East Singhbhum","Garhwa","Giridih","Godda","Gumla","Hazaribagh","Jamtara","Khunti","Koderma","Latehar","Lohardaga","Pakur","Palamu","Ramgarh","Ranchi","Sahebganj","Seaikela Kharsawan","simdega","West singbhum"],
+        Karnataka:["Bagalkot","Bangolore Rural","bangalore Urban","Belgaum","Bellary","Bidar","Chamarajanagar","Chikkaballlapur","Chikkamagaluru","Chitradurga","Dakshina Kannada","Davanagere","Dharwad","Gadag","Gulbarga","Hassan","Haveri","Kodagu","Kolar","mandya","Mysore","Raichur","Ramanagar","Shimoga","Tumkur","Udupi","Uttara Kannada","Vijayapura","Yadgir"],
+        Kerala: ["Alappuzha","Ernakulam","Idukki","Kannur","kasaraagod","Kollam","Kottayam","Kohikonde","Malappurm","Palakkad","Pathanamthitta","Thiruvanthapuram","Thrissur","Wayanad"],
+        Ladakh:["Kargil","Leh"],
+        Lakshadweep:["Lakshadweep"],
+        MadhyaPradesh:["Agar Malwa","Alirajpur","Anuppur","Ashoknagar","Balaghat","Barwan","Betul","Bhind","Bhopal","Burhanpur","Chhatarpur","Chhindwara","Damoh","Datia","Dewas","Dhar","Dindori","East Nimar","Guna","Gwalior","Harda","Hoshangabad","Indore","Jabalpur","Jhabua","Katni","Mandla","Mandsaur","Morena","Narsinghpur","Neemuch","Niwari","Panna","Raisen","Rajgarh","Ratlam","Rewa","Sagar","Satna","Sehore","Seoni","Shahdol","Shajapur","Sheopur","Shivpuri","Sidhi","Singrauli","Tikamgarh","Ujjain","Umaria","Vidisha","West Nimar"],
+        Maharashtra:["Ahmednagar","Akola","Amravati","Aurangabad","Beed","Bhandara","Buldhana","Chandrapur","Dhule","Gadchiroli","Gondia","Hingoli","Jalgaon","Jalna","Kolhapur","Latur","Mumbai City","Mumbai Suburban","Nagpur","Nanded","Nandurbar","Nashik","Osmanabad","Palghar","Parbhani","Pune","Raigad","Ratnagiri","Sangli","Satara","Sindhudurg","Solapur","Thane","Wardha","Washim","Yavatmal"],
+        Manipur:["Bishnupur","Chandel","Churachandanpur","Imphal East","Imphal West","Jiribam","Kakching","Kamjong","Kangpkpi","Noney","Pherzawal","Senapati","Tamenglong","Tengnoupal","Thoubal","Ukhrul"],
+        Meghalaya:["East Garo Hills","  East Khasi Hills"," Jaintia Hills","  Ri Bhoi","  South Garo Hills"," West Garo Hills","  West Khasi Hills"],
+        WestBengal:["Bankura","Birbhum","Cooch Behar","Dakshin Dinajpur","Darjeeling","Hooghly","Howrah","Jalpaiguri","Jhargram","Kalimpong","Kolkata","Malda","Murshidabad","Nadia","North 24 Parganas","Paschim Bardhaman","Paschim Medinipur","Purba Bardhaman","Purba Medinipur","Purulia","South 24 Parganas","Uttar Dinajpur"],
+      
+        Uttarakhand:["Almora","Bageshwar" ,"Chamoli" ,"Champawat" ,"Dehradun" ,"Haridwar" ,"Nainital","Pauri" ,"Pith","Pithoragarh" ,"Rudraprayag","Tehri" ,"Udham Singh Nagar","Uttarkashi"],
+      
+        UttarPradesh:["Agra","Aligarh","Ambedka","Ambedkar Nagar","Amethi","Amroha","Auraiya","Ayodhya","Azamgarh","Baghpat","Bahraich","Ballia","Balrampur","Banda","Barabanki","Bareilly","Basti","Bhadohi","Bijnor","Budaun","Bula","Bulandshahr","Chandauli","Chitrakoot","Deori","Etah","Etawah", "Farrukhabad","Fatehpur","Firozabad", "Gautam Buddha Nagar","Ghaziabad","Ghazipur","Gonda","Gorakhpur","Hamirpur","Hapur","Hardoi","Hathras","Jalaun","Jaunpur","Jhansi","Kannauj","Kanpu","Kanpur Dehat","Kanpur Nagar","Kasganj","Kaushambi","Kheri", "Kushinagar","Lalitpur","Lucknow", "Maharajganj","Mahoba","Mainpuri","Mathu","Mau","Meerut","Mirzapur","Moradabad", "Muzaffarnagar","Pilibhit","Pratapgarh","Prayagraj","Raebareli","Rampur", "Saharanpur","Sambhal","Sant Kabir Nagar","Shahjahanpur","Shamli", "Shravasti","Siddharthnagar","Sitapur","Sonbhadra", "Sultanpur","Unnao","Varanasi"],
+      
+        Tripura:["Dhalai","Gomati","Khowai","North Tripura","Sepahijala","South Tripura","Unakoti","West Tripura"],
+      
+        Telangana:["Adilabad","Bhadradri Kothagudem","Hyderabad","Jagtial","Jangaon","Jayashankar","Jogulamba","Kamareddy","Karimnagar","Khammam","Komaram Bheem","Mahabubabad","Mahbubnagar","Mancherial","Medak","Medchal","Mulugu","Nagarkurnool","Nalgonda","Narayanpet","Nirmal","Nizamabad","Peddapalli","Rajanna Sircilla","Ranga Reddy","Sangareddy","Siddipet","Suryapet","Vikarabad","Wanaparthy","Warangal Rural","Warangal Urban","Yadadri Bhuvanagiri"],
+      
+        TamilNadu:["Ariyalur","Chengalpattu","Chennai","Coimbatore","Cuddalore","Dharmapuri","Dindigul","Erode","Kallakurichi","Kanchipuram","Kanyakumari","Karur","Krishnagiri","Madurai","Nagapattinam","Namakkal","Nilgiris","Perambalur","Pudukkottai","Ramanathapuram","Ranipet","Salem","Sivaganga","Tenkasi ","Thanjavur","Theni","Thoothukudi","Tiruchirappalli","Tirunelveli","Tirupattur","Tiruppur","Tiruvallur","Tiruvannamalai","Tiruvarur","Vellore","Viluppuram","Virudhunagar"],
+      
+        Sikkim:["East Sikkim","North Sikkim","South Sikkim","West Sikkim"],
+      
+        Rajasthan:["Ajmer","Alwar","Banswara","Baran","Barmer","Bharatpur","Bhilwara","Bikaner","Bundi","Chittorgarh","Churu","Dausa","Dholpur","Dungarpur","Hanumangarh","Jaipur","Jaisalmer","Jalore","Jhalawar","Jhunjhunu","Jodhpur","Karauli","Kota","Nagaur","Pali","Pratapgarh","Rajsamand","Sawai Madhopur","Sikar","Sirohi","Sri Ganganagar","Tonk","Udaipur"],
+      
+        Punjab:["Amritsar","Barnala","Bathinda","Faridkot", "Fatehgarh Sahib","Fazilka","Firozpur","Gurdaspur","Hoshiarpur","Jalandhar","Kapurthala","Ludhiana","Mansa","Moga","Mohali","Muktsar","Pathankot","Patiala","Rupnagar","Sangrur","Shaheed Bhagat Singh Nagar","Tarn Taran"],
+      
+        Puducherry:["Karaikal","Mahe","Puducherry","Yanam"],
+      
+        Odisha:["Angul","Balangir","Balasore","Bargarh","Bhadrak","Boudh","Cuttack","Debagarh","Dhenkanal","Gajapati","Ganjam","Jagatsinghpur","Jajpur", "Jharsuguda","Kalahandi","Kandhamal","Kendrapara","Kendujhar","Khordha","Koraput","Malkangiri","Mayurbhanj","Nabarangpur","Nayagarh","Nuapada","Puri","Rayagada","Sambalpur","Subarnapur","Sundergarh"],
+      
+        Nagaland:["Mon","Dimapur","Kiphire","Kohima","Longleng","Mokokchung","Noklak","Peren","Phek","Tuensang","Wokha","Zunheboto"],
+      
+        Mizoram:["Aizawl","Champhai","Kolasib","Lawngtlai","Lunglei","Mamit","Saiha","Serchhip"]
+      
+      
+      }
+      function makeSubmenu(value) {
+        if(value.length==0) document.getElementById("citySelect").innerHTML = "<option></option>";
+        else {
+          var citiesOptions = "";
+          for(cityId in citiesByState[value]) {
+            citiesOptions+="<option>"+citiesByState[value][cityId]+"</option>";
+          }
+          document.getElementById("citySelect").innerHTML = citiesOptions;
+        }
+        // document.getElementById("countrySelect").value;
+        // var city = document.getElementById("citySelect").value;
+      }
+    </script>
+  </body>
+</html>

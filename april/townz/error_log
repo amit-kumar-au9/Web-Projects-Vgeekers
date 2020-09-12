@@ -1,0 +1,1 @@
+[29-May-2020 00:05:17 UTC] PHP Warning:  mysqli_num_rows() expects parameter 1 to be mysqli_result, bool given in /home/wev9i1hi1p5u/public_html/login.php on line 20

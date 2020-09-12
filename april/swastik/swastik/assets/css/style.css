@@ -1,0 +1,13 @@
+.red{
+	color: red;
+}
+.registration_form{
+	padding: 50px;
+}
+.fw_600{
+	font-weight: 600;
+}
+.btn_submit{
+	width: auto !important;
+	padding: 0px 100px 0px 100px !important;
+}

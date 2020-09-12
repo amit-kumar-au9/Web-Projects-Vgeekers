@@ -1,0 +1,7 @@
+[12-Jul-2020 20:03:24 UTC] PHP Notice:  Undefined index: site_id in /home/da0en0ua2x2e/public_html/crm/task/insert_sub_admin.php on line 8
+[12-Jul-2020 20:09:32 UTC] PHP Notice:  Undefined index: site_id in /home/da0en0ua2x2e/public_html/crm/task/insert_sub_admin.php on line 8
+[14-Jul-2020 22:09:16 Asia/Kolkata] PHP Notice:  Undefined index: quantity in /home/da0en0ua2x2e/public_html/crm/task/insert_inventory.php on line 7
+[14-Jul-2020 22:09:16 Asia/Kolkata] PHP Notice:  Undefined index: material_id in /home/da0en0ua2x2e/public_html/crm/task/insert_inventory.php on line 8
+[14-Jul-2020 22:10:01 Asia/Kolkata] PHP Warning:  A non-numeric value encountered in /home/da0en0ua2x2e/public_html/crm/task/update_admin_points.php on line 14
+[14-Jul-2020 22:11:06 Asia/Kolkata] PHP Warning:  A non-numeric value encountered in /home/da0en0ua2x2e/public_html/crm/task/update_admin_points.php on line 14
+[15-Jul-2020 22:29:09 Asia/Kolkata] PHP Warning:  A non-numeric value encountered in /home/da0en0ua2x2e/public_html/crm/task/update_admin_points.php on line 14

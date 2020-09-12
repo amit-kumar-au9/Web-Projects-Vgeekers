@@ -1,0 +1,89 @@
+API 1: done
+signUp.php
+request: "userName", "password", "class", "batch","emailId"
+response: "errorCode","errorMessage", "userId"
+
+API 2: done 
+login.php
+request: "userName", "password"
+response: "errorCode","errorMessage", "userId"
+
+API 3: done
+forgotPassword.php
+request: "code", "password", "userName"    -- Please add username in the UI for refreshing the UI
+response: "errorCode","errorMessage", "userId"
+
+API 4:
+forgotPassword.php done
+request: "code", "password", "userName"
+response: "errorCode","errorMessage", "userId"
+
+API 5:
+fetchHomePageData.php [GET]
+response: "errorCode","errorMessage", List of Json Array having  list of String with heading 'content'
+
+API 6:
+fetchStudentAttendence.php [GET] done
+request : "userId"
+response: "errorCode","errorMessage", List of Json Array having  list of 2 parameters 'Date','isPresent' with heading 'content'
+[isPresent will be boolean and true if the student is present for that particular date]
+
+API 7:
+fetchStudentAttendence.php done
+request : "userId"
+response: "errorCode","errorMessage", List of Json Array having  list of 2 parameters 'Date','isPresent' with heading 'content'
+[isPresent will be boolean and true if the student is present for that particular date]
+
+API 8:
+fetchHomework.php done
+request : "userId","date"
+response: "errorCode","errorMessage", List of Json Array having  list of 3 parameters 'isQuestionAvailable','question','imageUrl' under 'content'
+[isPresent will be boolean and true if the student is present for that particular date]
+
+API 8:
+fetchHomework.php done
+request : "userId","date"
+response: "errorCode","errorMessage", List of Json Array having  list of 3 parameters 'isQuestionAvailable','question','imageUrl' under 'content'
+[isPresent will be boolean and true if the student is present for that particular date]
+
+API 9:
+isOnlineClassAmountPaid.php 
+request : "userId"
+response: "errorCode","errorMessage" -> if the amount is already paid by the user than the API must revert in errorCode "0000" and
+in errorMessage the online Video URL must be provided.
+
+API 10:
+afterAmountPaidForOnlineClass.php done
+request : "userId", "class", "batch", "amount [in String]", "time"
+response: "errorCode","errorMessage"
+
+API 11:
+fetchContactUsDetails.php [GET]
+response: "errorCode","errorMessage", "mobile", "address" [iske alawa incase there are any more update then I will add-on the parameters]
+
+API 12:
+saveContactUsDetails.php
+request : "userId", "name","emailId", "suggestions"
+response: "errorCode","errorMessage"
+
+API 13:
+fetchCommonData.php done
+request : "userId"
+response: "errorCode","errorMessage","name","email"
+
+<--------------------- Teacher Data ------------------------>
+
+API 14:
+fetchStudentRecordList.php
+request : "userId","class","batch","date"
+response: "errorCode","errorMessage",List of Json Array having  list string in which the names of students will be fetched under 'content'
+
+API 15:
+saveStudentData.php
+request : "userId","presentStudentList" [in this a list of String will be passed in which only the present students will be passed]
+response: "errorCode","errorMessage"
+
+API 16:
+saveQuestionForHomework.php
+request : "userId","class","batch","date",isQuestion, "question","questionImage base64"
+response: "errorCode","errorMessage"
